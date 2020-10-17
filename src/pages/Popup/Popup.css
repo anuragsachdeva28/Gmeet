@@ -1,0 +1,122 @@
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+.nav {
+  width: 100%;
+  height: 15vh;
+  background-color: #2B2B2B;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav div {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.switch h3 {
+  cursor: pointer;
+  /*width: 20px;*/
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.switch h3:hover {
+  color: #2B2B2B;
+  background-color: white;
+}
+
+.main {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.meet {
+  display: flex;
+}
+
+.icon {
+
+}
+
+.meetBtn {
+  width: 175px;
+  height: 45px;
+  text-decoration: none;
+  background-color: #3A8D7F;
+  border: 0;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+
+.meetBtn:hover {
+  background-color: #004d40;
+}
+
+
+
+
+.clipboard-input {
+  border-radius: 3px;
+  border: 2px solid rgba(0, 0, 0, 0.09);
+  width: 275px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.clipboard-input:hover {
+  background-color: rgba(0,0,0,0.09);
+}
+
+.clipboard-para {
+  text-align: center;
+  color: #444444;
+}
+
+.clipboard-input::selection {
+  background-color: gray;
+}
+
+.footer {
+  padding-left: 10px;
+  color: #444444;
+}
+
+.loader {
+  margin: auto;
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #3A8D7F;
+  width: 25px;
+  height: 25px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.meetBtn:hover  .loader {
+  border-top: 6px solid #004d40;
+}
