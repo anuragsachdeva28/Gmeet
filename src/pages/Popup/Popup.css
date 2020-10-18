@@ -4,7 +4,7 @@
 .nav {
   width: 100%;
   height: 15vh;
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -27,7 +27,7 @@
 }
 
 .switch h3:hover {
-  color: #2B2B2B;
+  color: #2b2b2b;
   background-color: white;
 }
 
@@ -40,9 +40,9 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .meet {
@@ -50,14 +50,13 @@
 }
 
 .icon {
-
 }
 
 .meetBtn {
   width: 175px;
   height: 45px;
   text-decoration: none;
-  background-color: #3A8D7F;
+  background-color: #3a8d7f;
   border: 0;
   color: white;
   font-size: medium;
@@ -71,9 +70,6 @@
   background-color: #004d40;
 }
 
-
-
-
 .clipboard-input {
   border-radius: 3px;
   border: 2px solid rgba(0, 0, 0, 0.09);
@@ -82,11 +78,10 @@
   padding: 10px 0;
   font-size: 15px;
   cursor: pointer;
-
 }
 
 .clipboard-input:hover {
-  background-color: rgba(0,0,0,0.09);
+  background-color: rgba(0, 0, 0, 0.09);
 }
 
 .clipboard-para {
@@ -107,7 +102,7 @@
   margin: auto;
   border: 6px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 6px solid #3A8D7F;
+  border-top: 6px solid #3a8d7f;
   width: 25px;
   height: 25px;
   -webkit-animation: spin 2s linear infinite;
@@ -115,15 +110,23 @@
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-.meetBtn:hover  .loader {
+.meetBtn:hover .loader {
   border-top: 6px solid #004d40;
 }
