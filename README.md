@@ -34,7 +34,7 @@ Following are the basic features targeted  around this chrome extension:
 2. `ALT+N` : Create a new meeting
 3. `ALT+C` : Copy the meeting link onto Clipboard
 
-Combination of above keypress events are able to allow users to create and share the meeting via keyboard alone.
+**Combination of above keypress events** are able to allow users to create and share the meeting via keyboard alone.
 
 This project is updated with:
 
@@ -50,9 +50,9 @@ Please open up an issue to nudge me to keep the npm packages up-to-date. FYI, it
 
 ## Optimization Specification
 
-1. API_KEY and access codes to the google API are supposed to be hidden in a separate file and must not be shared. But for the sake of convenience and testing are shared with you.
-2. This project can be easily enhanced by adding a feature to open the newly created link in a new tab.
-3. New features like adding the attendees and notifying them can be very easily added as a feature because of the use of Google Calendar Api.
+1. API_KEY and access codes to the google API are supposed to be hidden in a separate file and must not be shared. But for the sake of **convenience and testing** are shared with you.
+2. This project can be easily enhanced by adding a feature to open the **newly created link in a new tab**.
+3. New features like **adding the attendees and notifying them** can be very easily added as a feature because of the use of Google Calendar Api.
 ## Webpack auto-reload and HRM
 
 To make your workflow much more efficient this boilerplate uses the [webpack server](https://webpack.github.io/docs/webpack-dev-server.html) to development (started with `npm start`) with auto reload feature that reloads the browser automatically every time that you save some file in your editor.
